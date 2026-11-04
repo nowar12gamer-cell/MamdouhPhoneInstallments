@@ -1,0 +1,6 @@
+{
+  "name": "ممدوح فون | Mamdouh Phone",
+  "description": "متجر ممدوح فون الرائد لأحدث الهواتف الذكية والأجهزة اللوحية والإكسسوارات الأصلية مع ضمان معتمد وخدمات تقسيط ميسرة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
