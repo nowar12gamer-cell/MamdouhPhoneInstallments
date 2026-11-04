@@ -1,4 +1,9 @@
 import { PhoneProduct } from '../types';
+import heroBannerImg from '../assets/images/hero_flagship_smartphone_1793826807176.jpg';
+import titanPhoneImg from '../assets/images/phone_iphone_titanium_1793826808381.jpg';
+import samsungPhoneImg from '../assets/images/phone_samsung_ultra_1793826808457.jpg';
+import foldablePhoneImg from '../assets/images/phone_foldable_smart_1793826808510.jpg';
+import accessoriesImg from '../assets/images/phone_accessories_bundle_1793826808122.jpg';
 
 export const STORE_NAME = 'ممدوح فون';
 export const STORE_TAGLINE = 'الوجهة المعتمدة لأحدث الهواتف الذكية والإكسسوارات الأصلية';
@@ -6,7 +11,7 @@ export const STORE_PHONE = '+20 11 28365101';
 export const STORE_WHATSAPP_NUMBER = '201128365101';
 export const STORE_ADDRESS = 'محافظة البحيرة، مدينة إدكو، متفرع من شارع بلال، بجوار صيدلية دكتور أحمد ميدره';
 
-export const HERO_BANNER_IMG = '/src/assets/images/hero_flagship_smartphone_1793826807176.jpg';
+export const HERO_BANNER_IMG = heroBannerImg;
 
 export const INITIAL_PHONES: PhoneProduct[] = [
   {
@@ -16,7 +21,7 @@ export const INITIAL_PHONES: PhoneProduct[] = [
     category: 'flagship',
     basePrice: 59900,
     originalPrice: 63500,
-    image: '/src/assets/images/phone_iphone_titanium_1793826808381.jpg',
+    image: titanPhoneImg,
     badge: 'الإصدار الأكثر طلباً',
     colors: [
       { name: 'تيتانيوم طبيعي', code: '#c5bfb6' },
@@ -52,7 +57,7 @@ export const INITIAL_PHONES: PhoneProduct[] = [
     category: 'flagship',
     basePrice: 53500,
     originalPrice: 57000,
-    image: '/src/assets/images/phone_samsung_ultra_1793826808457.jpg',
+    image: samsungPhoneImg,
     badge: 'كاميرا 200 ميجابكسل',
     colors: [
       { name: 'أزرق كحلي داكن', code: '#1a2e4a' },
@@ -88,7 +93,7 @@ export const INITIAL_PHONES: PhoneProduct[] = [
     category: 'foldable',
     basePrice: 74900,
     originalPrice: 79900,
-    image: '/src/assets/images/phone_foldable_smart_1793826808510.jpg',
+    image: foldablePhoneImg,
     badge: 'هاتف المستقبل القابل للطي',
     colors: [
       { name: 'كحلي ليلي', code: '#142035' },
@@ -122,7 +127,7 @@ export const INITIAL_PHONES: PhoneProduct[] = [
     category: 'accessories',
     basePrice: 12500,
     originalPrice: 14800,
-    image: '/src/assets/images/phone_accessories_bundle_1793826808122.jpg',
+    image: accessoriesImg,
     badge: 'طقم احترافي متكامل',
     colors: [
       { name: 'أسود مطفي', code: '#1e1e1e' },
@@ -155,7 +160,7 @@ export const INITIAL_PHONES: PhoneProduct[] = [
     category: 'flagship',
     basePrice: 33800,
     originalPrice: 36500,
-    image: '/src/assets/images/phone_samsung_ultra_1793826808457.jpg',
+    image: samsungPhoneImg,
     badge: 'عدسات لايكا الألمانية',
     colors: [
       { name: 'رمادي تيتانيوم', code: '#5a5c61' },
@@ -189,7 +194,7 @@ export const INITIAL_PHONES: PhoneProduct[] = [
     category: 'flagship',
     basePrice: 44200,
     originalPrice: 47900,
-    image: '/src/assets/images/phone_iphone_titanium_1793826808381.jpg',
+    image: titanPhoneImg,
     badge: 'بطارية سيليكون كربون',
     colors: [
       { name: 'أخضر ملكي', code: '#284b3e' },
